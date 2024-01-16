@@ -1,0 +1,85 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 127px;
+    margin-top: 50px;
+}
+nav li {
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    padding-right: 44px;
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+}
+.home{
+color: #FF5400;
+text-align: center;
+font-family: Mulish;
+font-size: 18px;
+font-weight: 700;
+}
+nav h3{
+color: #131318;
+font-family: Mulish;
+font-size: 36px;
+font-weight: 800;
+margin-top: 30px;
+margin-left: 207px;
+align-items: center;
+
+}
+.travel{
+color: #FF5400;
+font-family: Mulish;
+font-size: 36px;
+font-weight: 800;
+
+}
+.banner-content{
+    position: relative;
+    align-items: center;
+    width: 1170px;
+    height: 500px;
+    text-align: center;
+    border-radius: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("Images/Group\ 13\ \(1\)\ \(1\).png");
+}
+.banner-content img{
+    width: 100%;
+    
+}
+.banner-title{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    left: 200px;
+    margin-left: auto;
+
+}
+.banner-heading{
+    color: #FFF;
+font-family: Mulish;
+font-size: 64px;
+font-weight: 800;
+}
+.banner-description{
+color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+width: 670px;
+
+}
